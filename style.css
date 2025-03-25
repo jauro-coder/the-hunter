@@ -1,0 +1,66 @@
+body{
+    font-family:Arial;
+    background-color:black;
+    color:white;
+    
+}
+.list{
+    margin: 5px;
+}
+.app-link{
+    display: block;
+    border: 1px dotted gray;
+    border-radius:10px;
+    padding: 5px 0 5px 0;
+    text-decoration: none;
+    
+}
+.description{
+    color:#B0B0B0;
+    font-size: 12.5px;
+    display:block;
+}
+.name{
+    display: inline;
+    font-size:25px;
+    color: white;
+    font-weight: bolder;
+}
+.app-logo{
+    width: 37.5px;
+    border-radius:100%;
+    float: left;
+    margin:2px 5px 0 10px;
+}
+#hero{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color:white;
+    color: black;
+    margin:5px;
+    border-radius:10px;
+    padding: 0 10px;
+    position:top;
+}
+#hero-logo{
+    width:100px;
+    margin: 0;
+    
+}
+#hero-name{
+    margin:0;
+}
+footer{
+    text-align:center;
+}
+#updates{
+    text-align:center;
+    border: 1px solid white;
+    margin: 5px;
+}
+#sort{
+    color: green;
+    margin-left:20px ;
+}
